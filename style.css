@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+#jstxt {
+  resize:none;
+  border:1px solid rgb(130,130,130);
+  background-color:rgb(28,28,28);
+  height:350px;
+  width:400px;
+font-family: 'Archivo Black', sans-serif;
+    color:rgb(242,121,20);
+
+
+}
+
+#jstxt:focus {
+   resize:none;
+  border:1px solid rgb(130,130,130);
+  background-color:rgb(28,28,28);
+  height:350px;
+  width:400px;
+font-family: 'Archivo Black', sans-serif;
+    color:rgb(242,121,20);
+}
+
+#run {
+  border:0;
+  background-color:lime;
+  color:black;
+  height:40px;width:70px;
+  font-size:25px;
+  font-style:italic;
+}
+
+
+#ide {
+  transform:translateX(-100% , -100%);
+  align-items:center;
+  justify-content:center;
+  display:block;
+  width:405px;
+
+}
+
+.jsimg img{
+  height:50px;width:50px;
+  
+}
+
+
+#jstxt::placeholder {
+  color:rgb(242,121,20);
+}
+
+
+#ide h1 {
+  text-align:center;
+  color:blue;
+}
+
+#jstxt {
+  border:2px solid rgb(242,121,20);
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+  background-color:black;
+  margin:0;
+  padding:0;
+}
